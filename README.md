@@ -4,11 +4,11 @@
 
 ![Версия](https://img.shields.io/badge/версия-2.0-blue)
 ![Язык](https://img.shields.io/badge/Python-3.1-green)
-![Лицензия](https://img.shields.io/badge/лицензия-школьная-orange)
+![Лицензия](https://img.shields.io/badge/лицензия-лицейская-orange)
 
 ---
 
-![Пример игры](assets\Gif_play.gif)
+![Пример игры](assets\Gif_play_V2.gif)
 
 ## 🎮 Суть игры
 
