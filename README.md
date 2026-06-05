@@ -42,27 +42,29 @@
 ### Установка и запуск
 
 #### 1. **Склонируйте репозиторий:**
-   ```bash
+   ```cmd
    git clone https://github.com/ваш-username/lovi-yabloki.git
    cd v1/main.py
    ```
-#### 2. **Создайте виртуальное окружение (рекомендуется):**
+#### 2. Создайте виртуальное окружение (рекомендуется):
 
-    **Windows**
-    ```bash
-    python -m venv venv
-    venv\Scripts\activate
-    ```
-   **macOS/Linux**
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate
-   ```
+  **Windows (CMD)**
+  ```cmd
+  python -m venv venv
+  venv\Scripts\activate
+  ```
+   
+  **macOS / Linux**
+  ```bash
+  python3 -m venv venv
+  source venv/bin/activate
+  ```
+
 #### 3. **Установите зависимости:**
-   ```bash
+   ```cmd
    pip install -r requirements.txt
    ```
 #### 4. **Запустите код:**
-   ```bash
+   ```cmd
    python main.py
    ```
