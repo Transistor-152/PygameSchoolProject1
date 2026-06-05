@@ -13,7 +13,7 @@ HEIGHT = 400
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Лови яблоки")
 
-clock = pygame.time.Clock()
+clock = pygame.time.Clock() 
 
 bg_menu = pygame.image.load('bg_menu.png') # Задний фон меню
 bg_game = pygame.image.load('bg_game.png') # Задний фон игры
@@ -209,6 +209,7 @@ def play():
         # ---
         # ОТРИСОВКА
         # ---
+        # Фон
         screen.blit(bg_game, (0, 0))
         # Корзина
         screen.blit(apple_image, (apple_x, apple_y))
