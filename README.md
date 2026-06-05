@@ -8,7 +8,7 @@
 
 ---
 
-![Пример игры](assets\Gif_play_V2.gif)
+![Пример игры](./assets/Gif_play_V2.gif)
 
 ## 🎮 Суть игры
 
@@ -46,15 +46,15 @@
    git clone https://github.com/ваш-username/lovi-yabloki.git
    cd v1/main.py
    ```
-#### 2. Создайте виртуальное окружение (рекомендуется):
+#### 2. **Создайте виртуальное окружение (рекомендуется):**
 
-  **Windows (CMD)**
+  ##### **Windows (CMD)**
   ```cmd
   python -m venv venv
   venv\Scripts\activate
   ```
    
-  **macOS / Linux**
+  ##### **macOS / Linux**
   ```bash
   python3 -m venv venv
   source venv/bin/activate
