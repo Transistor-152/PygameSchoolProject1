@@ -2,7 +2,7 @@
 
 ![Версия](https://img.shields.io/badge/версия-1.0-blue)
 ![Язык](https://img.shields.io/badge/Python-3.1-green)
-![Лицензия](https://img.shields.io/badge/лицензия-школьная-orange)
+![Лицензия](https://img.shields.io/badge/лицензия-лицейская-orange)
 
 ---
 

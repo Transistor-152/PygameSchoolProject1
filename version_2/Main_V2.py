@@ -15,8 +15,8 @@ pygame.display.set_caption("Лови яблоки")
 
 clock = pygame.time.Clock()
 
-bg_menu = pygame.image.load('asa.png') # Задний фон меню
-bg = pygame.image.load('bbc.png') # Задний фон игры
+bg_menu = pygame.image.load('bg_menu.png') # Задний фон меню
+bg_game = pygame.image.load('bg_game.png') # Задний фон игры
 
 # ---
 # ЦВЕТА
@@ -127,7 +127,7 @@ def play():
     player_x = WIDTH // 2 - player_width // 2
     player_y = HEIGHT - 50
 
-    player_image = pygame.image.load('3246и34ц345м (1).png')
+    player_image = pygame.image.load('player_image.png')
 
     # Яблоко
     apple_size = 20
@@ -135,7 +135,7 @@ def play():
     apple_x = random.randint(0, WIDTH - apple_size)
     apple_y = 0
 
-    apple_image = pygame.image.load('5ш-Photoroom.png')
+    apple_image = pygame.image.load('apple_image.png')
 
     # Счёт и жизни
     score = 0
@@ -209,7 +209,7 @@ def play():
         # ---
         # ОТРИСОВКА
         # ---
-        screen.blit(bg, (0, 0))
+        screen.blit(bg_game, (0, 0))
         # Корзина
         screen.blit(apple_image, (apple_x, apple_y))
 

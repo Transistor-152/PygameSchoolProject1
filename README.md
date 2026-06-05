@@ -47,12 +47,13 @@
    cd v1/main.py
 
 2. **Создайте виртуальное окружение (рекомендуется):**
-   ```bash
     Windows
+    ```bash
     python -m venv venv
     venv\Scripts\activate
 
    macOS/Linux
+   ```bash
    python3 -m venv venv
    source venv/bin/activate
 
