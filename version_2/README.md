@@ -1,6 +1,6 @@
 # 🍎 Лови яблоки! - версия 2.0
 
-![Версия](https://img.shields.io/badge/версия-2.0-blue)
+![Версия](https://img.shields.io/badge/версия-1.0-blue)
 ![Язык](https://img.shields.io/badge/Python-3.1-green)
 ![Лицензия](https://img.shields.io/badge/лицензия-лицейская-orange)
 
