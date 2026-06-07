@@ -43,8 +43,8 @@
 
 #### 1. **Склонируйте репозиторий:**
    ```cmd
-   git clone https://github.com/ваш-username/lovi-yabloki.git
-   cd v1/main.py
+   git clone https://github.com/Transistor-152/PygameSchoolProject1
+   cd version_2/main_V2.py
    ```
 #### 2. **Создайте виртуальное окружение (рекомендуется):**
 
@@ -66,5 +66,5 @@
    ```
 #### 4. **Запустите код:**
    ```cmd
-   python main.py
+   python main_V2.py
    ```
